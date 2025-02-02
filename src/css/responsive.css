@@ -1,3 +1,44 @@
+@media (max-width: 767px) {
+    nav ul {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .hero #typing {
+        height: 90px;
+    }
+
+    .hero p {
+        width: 450px;
+        margin: 25px auto;
+        text-align: center;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .projetos {
+        height: auto;
+    }
+
+    .buttons {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer p {
+        font-size: 8px;
+    }
+}
+
 @media (max-width: 599px) and (min-width: 480px) 
 {
     .hero h1 {
