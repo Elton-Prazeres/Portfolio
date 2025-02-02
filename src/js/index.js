@@ -1,4 +1,4 @@
-const texts = ["Elton Prazeres", "Desenvolvedor Front-End"];
+const texts = ["Elton Prazeres", "Desenvolvedor Front-End Júnior"];
         let textIndex = 0;
         let charIndex = 0;
 
@@ -13,7 +13,7 @@ const texts = ["Elton Prazeres", "Desenvolvedor Front-End"];
                     charIndex = 0;
                     textIndex = (textIndex + 1) % texts.length;
                     typeEffect();
-                }, 6000);
+                }, 5000);
             }
         }
         document.getElementById("typing").textContent = "";
