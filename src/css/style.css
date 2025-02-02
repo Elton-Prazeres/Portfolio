@@ -63,9 +63,9 @@ nav .fa-linkedin:hover  {
     color: var(--primary-blue);
 }
 
-nav .fa-instagram:hover  {
+/* nav .fa-instagram:hover  {
     color: var(--primary-orange);
-}
+} desativado até organizar plataforma de acordo a profissão */
 
 /* Estilização do Hero */
 .hero {
@@ -143,7 +143,7 @@ nav .fa-instagram:hover  {
 /* Estilização dos projetos */
 .projetos {
     padding: 50px 20px;
-    height: 60vh;
+    height: 100vh;
 }
 
 .projetos h2 {
