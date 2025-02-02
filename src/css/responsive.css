@@ -1,0 +1,41 @@
+@media (max-width: 599px) and (min-width: 480px) 
+{
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero #typing {
+        height: 90px;
+    }
+
+    .hero p {
+        width: 350px;
+        margin: 25px auto;
+        text-align: center;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .projetos {
+        height: auto;
+    }
+    
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .buttons {
+        width: 100%;
+        text-align: center;
+    }
+
+    footer ul {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer p {
+        font-size: 7px;
+    }
+}
