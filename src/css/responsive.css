@@ -38,6 +38,10 @@
         gap: 10px;
     }
 
+    .hero {
+        height: 60vh;
+    }
+
     .hero h1 {
         font-size: 1.8rem;
         text-align: center;
