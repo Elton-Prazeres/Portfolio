@@ -161,3 +161,41 @@
         font-size: 7px;
     }
 }
+
+@media (max-width: 480px) and (min-width: 320px) 
+{  
+    .hero {
+        height: 100vh;
+    }
+
+    .hero #typing {
+       font-size: 20px;
+       margin: 20px;
+    }
+
+    .hero .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero .about p {
+        width: 280px;
+        margin: 25px auto;
+        text-align: center;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .hero .tecnologias {
+        font-size: 10px;
+    }
+
+    .projetos {
+        height: 230vh;
+    }
+
+    .projetos .grid {
+        grid-template-columns: 1fr;
+    }
+
+}
