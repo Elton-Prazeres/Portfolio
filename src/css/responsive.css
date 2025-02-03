@@ -1,4 +1,4 @@
-@media (max-width: 1024px) {
+@media (max-width: 1024px) and (min-width: 768px) {
     .grid {
         grid-template-columns: 1fr 1fr;
     }
@@ -7,21 +7,35 @@
         font-size: 2rem;
     }
 
-    .hero p {
-        width: 80%;
-        margin: 50px auto;
+    .about {
+       height: 30%;
     }
 
+    .about p {
+        width: 60%;
+        margin: 50px auto;
+        text-align: center;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .projetos {
+        margin: 0 auto;
+    }
+    
+    .projetos h3 {
+        margin: 0;
+    }
+
+    .projetos .buttons {
+        margin: 0;
+    }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px) and (min-width: 600px) {
     nav ul {
         flex-direction: row;
         gap: 10px;
-    }
-
-    .grid {
-        grid-template-columns: 1fr;
     }
 
     .hero h1 {
@@ -33,20 +47,47 @@
         height: 90px;
     }
 
+    .hero .buttons {
+        padding: 20px;
+    }
+
     .hero p {
         width: 450px;
         margin: 25px auto;
         text-align: center;
         font-size: 12px;
-        line-height: 20px;
+    }
+
+    .hero .about p {
+        margin: 0 auto;
+        padding: 20px 0;
+        text-align: center;
+        line-height: 15px;
+    }
+
+    .hero .tecnologias {
+        padding: 20px 0;
     }
 
     .projetos {
         height: auto;
+        width: 550px;
+        margin: 0 auto;
+
     }
 
+    .projetos .projeto {
+        width: 70%;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .projetos .grid {
+        grid-template-columns: 1fr;
+    }
+
+
     .buttons {
-        flex-direction: column;
         text-align: center;
     }
 
@@ -55,8 +96,12 @@
     }
 }
 
-@media (max-width: 599px) and (min-width: 480px) 
-{
+@media (max-width: 599px) and (min-width: 400px) 
+{   
+    .hero {
+        height: 80vh;
+    }
+
     .hero h1 {
         font-size: 1.5rem;
     }
@@ -65,7 +110,15 @@
         height: 90px;
     }
 
-    .hero p {
+    .hero .buttons {
+        padding: 10px 0;
+    }
+
+    .hero .buttons {
+        margin: 20px 0;
+    }
+
+    .hero .about p {
         width: 350px;
         margin: 25px auto;
         text-align: center;
@@ -73,12 +126,24 @@
         line-height: 20px;
     }
 
+    .hero .tecnologias {
+        margin: 20px;
+        padding: 10px;
+    }
+
     .projetos {
         height: auto;
+        margin: 0 auto;
     }
-    
-    .grid {
+
+    .projetos .grid {
         grid-template-columns: 1fr;
+    }
+
+    .projetos .projeto {
+        width: 70%;
+        align-self: center;
+        justify-self: center;
     }
 
     .buttons {
