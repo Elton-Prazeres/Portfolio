@@ -67,10 +67,6 @@ nav .fa-linkedin:hover  {
     color: var(--primary-blue);
 }
 
-/* nav .fa-instagram:hover  {
-    color: var(--primary-orange);
-} desativado até organizar plataforma de acordo a profissão */
-
 /* Estilização do Hero */
 .hero {
     padding: 50px 20px;
@@ -85,10 +81,6 @@ nav .fa-linkedin:hover  {
     font-size: 44px;
     font-weight: bold;
     min-height: 50px;
-}
-
-.buttons {
-    margin-top: 20px;
 }
 
 .btn {
@@ -136,7 +128,7 @@ nav .fa-linkedin:hover  {
     background-color: var(--secundary-blue);
 }
 
-.hero p {
+.hero .about p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,14 +136,15 @@ nav .fa-linkedin:hover  {
     line-height: 30px;
 }
 
-.tecnologias i {
+.hero .tecnologias i {
     font-size: 30px;
+    margin-top: 10px;
 }
 
 /* Estilização dos projetos */
 .projetos {
     padding: 50px 20px;
-    height: 100vh;
+    height: 90vh;
 }
 
 .projetos h2 {
@@ -178,6 +171,10 @@ nav .fa-linkedin:hover  {
     font-size: 10px;
     text-align: left;
     padding: 10px 30px;
+}
+
+.projeto h3 {
+    margin: 0;
 }
 
 /* Estilização do rodapé */
