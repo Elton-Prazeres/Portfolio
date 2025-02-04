@@ -21,6 +21,7 @@
 
     .projetos {
         margin: 0 auto;
+        height: 80vh;
     }
     
     .projetos h3 {
@@ -95,10 +96,10 @@
     }
 }
 
-@media (max-width: 599px) and (min-width: 400px) 
+@media (max-width: 599px) and (min-width: 481px) 
 {   
     .hero {
-        height: 80vh;
+        height: 70vh;
     }
 
     .hero h1 {
@@ -131,7 +132,7 @@
     }
 
     .projetos {
-        height: auto;
+        height: 60vh;
         margin: 0 auto;
     }
 
@@ -164,7 +165,7 @@
 @media (max-width: 480px) and (min-width: 320px) 
 {  
     .hero {
-        height: 100vh;
+        height: 85vh;
     }
 
     .hero #typing {
@@ -190,7 +191,7 @@
     }
 
     .projetos {
-        height: 230vh;
+        height: 200vh;
     }
 
     .projetos .grid {
