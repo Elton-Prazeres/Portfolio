@@ -198,4 +198,9 @@
         grid-template-columns: 1fr;
     }
 
+    footer ul {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
