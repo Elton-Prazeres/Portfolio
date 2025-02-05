@@ -198,6 +198,10 @@
         grid-template-columns: 1fr;
     }
 
+    footer p {
+        font-size: 6px;
+    }
+
     footer ul {
         display: flex;
         flex-direction: column;
