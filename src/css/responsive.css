@@ -202,6 +202,10 @@
         font-size: 6px;
     }
 
+    footer a {
+        font-size: 12px;
+    }
+
     footer ul {
         display: flex;
         flex-direction: column;
