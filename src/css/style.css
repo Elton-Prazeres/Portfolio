@@ -5,16 +5,18 @@ html {
 }
 /* Estilização do menu */
 body {
-    background-color: var(--secundary-white);
+    background: radial-gradient(#c7c7c7, #ffff);
     color: var(--primary-black);
     text-align: center;
 }
 
 header {
-    background-color: var(--secundary-green);
+    background-color: var(--primary-black);
     color: var(--secundary-white);
     padding: 15px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
 }
 
 nav {
@@ -28,6 +30,7 @@ nav {
 .logo {
     font-size: 24px;
     font-weight: bold;
+    transition: 0.3s;
 }
 
 .logo:hover {
@@ -60,7 +63,7 @@ nav .fa-brands {
 }
 
 nav .fa-github:hover  {
-    color: var(--primary-black);
+    color: var(--primary-green);
 }
 
 nav .fa-linkedin:hover  {
