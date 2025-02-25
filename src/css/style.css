@@ -185,7 +185,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--secundary-blue);
+    background-color: var(--primary-black);
     padding: 20px;
     margin-top: 50px;
     box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
@@ -212,7 +212,7 @@ footer a {
 }
 
 footer a:hover {
-    color: var(--primary-black);
+    color: var(--primary-blue);
     text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.3);
 }
 
@@ -225,7 +225,7 @@ footer .fa-brands {
 }
 
 footer .fa-github:hover  {
-    color: var(--primary-black);
+    color: var(--primary-green);
 }
 
 footer .fa-linkedin:hover  {
@@ -234,4 +234,8 @@ footer .fa-linkedin:hover  {
 
 footer .fa-instagram:hover  {
     color: var(--primary-orange);
+}
+
+footer p, br {
+    color: var(--primary-white);
 }
