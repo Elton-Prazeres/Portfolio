@@ -4,8 +4,11 @@
     --primary-blue: hsl(249, 100%, 50%);
     --secundary-blue: hsl(189, 84%, 52%);
     --primary-white: hsl(0, 0%, 100%);
-    --secundary-white: hsl(0, 0%, 98%);
+    --secundary-white: hsl(0, 0%, 95%);
     --prymary-gray: hsl(60, 7%, 24%);
+    --secundary-gray: hsl(0, 0%, 30%);
     --primary-black: hsl(0, 0%, 20%);
+    --secundary-black: hsl(0, 0%, 13%);
     --primary-orange: hsl(22, 94%, 49%);
+    --primary-shade-red: hsl(332, 100%, 50%)
 }
