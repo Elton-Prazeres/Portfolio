@@ -40,7 +40,7 @@
     }
 
     .hero {
-        height: 60vh;
+        height: 50vh;
     }
 
     .hero h1 {
@@ -70,14 +70,15 @@
     }
 
     .projetos {
-        height: auto;
+        height: 90vh;
         width: 550px;
         margin: 0 auto;
+        margin-top: -20px;
 
     }
 
     .projetos .projeto {
-        width: 70%;
+        width: 60%;
         align-self: center;
         justify-self: center;
     }
@@ -132,7 +133,7 @@
     }
 
     .projetos {
-        height: 60vh;
+        height: 50vh;
         margin: 0 auto;
     }
 
@@ -191,6 +192,7 @@
     }
 
     .projetos {
+        margin-top: 80px;
         height: 200vh;
     }
 
